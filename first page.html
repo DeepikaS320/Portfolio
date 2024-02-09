@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('Portfolio.jpg'); /* Add your background image URL here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(240, 243, 245, 0.8); /* Light Blue Grey with transparency */
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(44, 62, 80, 0.8); /* Midnight Blue with transparency */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12; /* Sunflower Yellow */
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center; /* Center-align the content within sections */
+            background: rgba(236, 240, 241, 0.8); /* Light Grey with transparency */
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            color: #2c3e50; /* Midnight Blue */
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 40px;
+            background-color: rgba(236, 240, 241, 0.8); /* Light Grey with transparency */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: rgba(52, 73, 94, 0.8); /* Wet Asphalt with transparency */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section ul {
+            text-align: center; /* Center-align list items */
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #2980b9; /* Belize Hole */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #3498db; /* Peter River */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#area-of-interest">Area of Interest</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div>
+                <img src="deepika.jpg" alt="Deepika" style="width: 200px; height: auto; border-radius: 50%;">
+                <p>As a data science student, I'm deeply passionate about leveraging technology to solve real-world problems. With a keen interest in web development, I'm proficient in Python and have experience in full-stack development. I thrive on challenges, collaborate effectively, and continuously seek growth opportunities.</p>
+                <p>In my free time, I enjoy exploring new technologies, contributing to open-source projects, and participating in hackathons. I also love hiking, photography, and spending time with friends and family.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>SQL</li>
+                <li>Problem Solving</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="area-of-interest">
+        <div class="container">
+            <h2>Area of Interest</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Data Science</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container">
+            <h2>Project</h2>
+            <div class="project">
+                <h3>Diabetic Retinopathy</h3>
+                <p>Addressing Diabetic Retinopathy, our project excels in automatic exudates segmentation, diabetic severity assessment, and provides gradient maps for laser treatment guidance.</p>
+            </div>
+            <div class="project">
+                <h3>Sync Route</h3>
+                <p>Sync Route is a web application designed to address the challenges faced by groups of people traveling to a common destination from different starting points. The application provides a simple and effective way for group members to share their real-time locations with one another through a unique link.</p>
+            </div>
+            <!-- Add more project sections as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: deepikasaravanan869@gmail.com</p>
+            <p>Phone: 6374749931</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">Your GitHub Profile</a></p>
+            <p>Address: Your Address</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
